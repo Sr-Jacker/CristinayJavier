@@ -27,7 +27,7 @@
           left:24.2%;
           z-index: -1;
           width: 51.5%;
-          height: 158.5%;
+          height: 225.5%;
           background: linear-gradient(45deg, purple, gray , black , purple, gray , black, purple , gray , black, gray, purple);
           background-size: 800%;
           border-radius: 2rem;
@@ -59,17 +59,32 @@
           font-family: 'Roboto', sans-serif;
         }
 
-        .btn{
+        .ubi{
           border-radius: 15px;
           border: solid 1px #5A0069;
           text-decoration: none;
           color: #5A0069;
-          padding: 3px 8px 8px 8px;
+          padding: 3% 3% 4% 3%;
+          background-color: rgb(256, 256, 256,.5);
+        }
+
+        .asistencia{
+          border-radius: 15px;
+          border: solid 1px #5A0069;
+          text-decoration: none;
+          color: #5A0069;
+          padding: 4% 3% 3% 3%;
           background-color: rgb(256, 256, 256,.5);
         }
 
         .banner{
-            width: 100%;
+          width: 100%;
+        }
+
+        #recocha{
+          font-size: 10px;
+          text-align: right;
+          margin-left: 40%;
         }
 
 
@@ -84,7 +99,15 @@
             top:10px;
             left:2.2%;
             width: 97%;
-            height: 92.5%;
+            height: 140.5%;
+          }
+
+          .colores{
+            padding: 10px !important;
+          }
+
+          .col-8{
+            width: 90%;
           }
 
           .banner{
@@ -128,13 +151,13 @@
             <div class="col text-center">
               <img class="icon" src="./img/iglesia.png" alt="" srcset="" width="20%">
               <p class="text mt-2">
-                <b>MISA</b><br>
+                <b>CEREMONIA</b><br>
                 IGLESIA SAGRADO<br>
                 CORAZON<br>
-                <b>6:00 PM</b>
+                <b>5:30 PM</b>
               </p>
-              <a class="btn btn-outline-light mx-4 shadow" href="https://www.google.com/maps/place/Parroquia+Sagrado+Coraz%C3%B3n+de+Jes%C3%BAs/@4.5366355,-75.6761327,15.02z/data=!4m14!1m7!3m6!1s0x8e38f5a8d7c4b201:0xe3de1f0a233cfed5!2sParroquia+Sagrado+Coraz%C3%B3n+de+Jes%C3%BAs!8m2!3d4.5366709!4d-75.6760437!16s%2Fg%2F11cn2_drfj!3m5!1s0x8e38f5a8d7c4b201:0xe3de1f0a233cfed5!8m2!3d4.5366709!4d-75.6760437!16s%2Fg%2F11cn2_drfj?entry=ttu" target="_blank">
-                <img class="icon" src="./img/ubicacion.png" alt="" srcset="" width="12%">
+              <a class="ubi btn btn-outline-light mx-4 shadow" href="https://www.google.com/maps/place/Parroquia+Sagrado+Coraz%C3%B3n+de+Jes%C3%BAs/@4.5366355,-75.6761327,15.02z/data=!4m14!1m7!3m6!1s0x8e38f5a8d7c4b201:0xe3de1f0a233cfed5!2sParroquia+Sagrado+Coraz%C3%B3n+de+Jes%C3%BAs!8m2!3d4.5366709!4d-75.6760437!16s%2Fg%2F11cn2_drfj!3m5!1s0x8e38f5a8d7c4b201:0xe3de1f0a233cfed5!8m2!3d4.5366709!4d-75.6760437!16s%2Fg%2F11cn2_drfj?entry=ttu" target="_blank">
+                <img class="icon" src="./img/ubicacion.png" alt="" srcset="" width="16%">
                 ver ubicación
               </a>
             </div>
@@ -144,13 +167,57 @@
                 <b>RECEPCIÓN</b><br>
                 CHALET COREINEM<br>
                 CALARCÁ<br>
-                <b>7:00 PM</b>
+                <b>7:30 PM</b>
               </p>
-              <a class="btn btn-outline-light mx-4 shadow" href="https://www.google.com/maps/place/COREINEM/@4.4762851,-75.6780807,15.05z/data=!4m14!1m7!3m6!1s0x8e38f5a8d7c4b201:0xe3de1f0a233cfed5!2sParroquia+Sagrado+Coraz%C3%B3n+de+Jes%C3%BAs!8m2!3d4.5366709!4d-75.6760437!16s%2Fg%2F11cn2_drfj!3m5!1s0x8e38f71c0d3e1587:0xfd25838c22478fc3!8m2!3d4.4724295!4d-75.6772908!16s%2Fg%2F11htf54kkn?entry=ttu" target="_blank">
-                <img class="icon" src="./img/ubicacion.png" alt="" srcset="" width="12%">
+              <a class="ubi btn btn-outline-light mx-4 shadow" href="https://www.google.com/maps/place/COREINEM/@4.4762851,-75.6780807,15.05z/data=!4m14!1m7!3m6!1s0x8e38f5a8d7c4b201:0xe3de1f0a233cfed5!2sParroquia+Sagrado+Coraz%C3%B3n+de+Jes%C3%BAs!8m2!3d4.5366709!4d-75.6760437!16s%2Fg%2F11cn2_drfj!3m5!1s0x8e38f71c0d3e1587:0xfd25838c22478fc3!8m2!3d4.4724295!4d-75.6772908!16s%2Fg%2F11htf54kkn?entry=ttu" target="_blank">
+                <img class="icon" src="./img/ubicacion.png" alt="" srcset="" width="16%">
                 ver ubicación
               </a>
             </div>
+        </div>
+
+        <div class="row pt-4 mt-5 mb-0 justify-content-center align-items-end">
+          <div class="col text-center">
+            <p class="text mt-2">
+              CONFÍRMA <b>TU ASISTENCIA</b> Y LA DE <b>TU ACOMPAÑANTE</b><br>
+              <small class="fs-9">PARA GUARDARTE UNA SILLITA :)</small><br>
+              <small class="cursiva" id="recocha">...despues no digas que no te avisaaaamooooos!!</small>
+            </p>
+          </div>
+        </div>
+
+        <div class="row my-0 justify-content-center align-items-end">
+          <div class="col-8 text-center">
+            <a class="asistencia btn btn-outline-light mx-4 shadow" href="https://api.whatsapp.com/send?phone=573155608204&text=Hola%20Cris%2C%20te%20escribo%20para%20confirmar%20mi%20asistencia%20a%20tu%20boda!!%20%F0%9F%8E%8A" target="_blank">
+              <img class="icon" src="./img/calendario.png" alt="" srcset="" width="12%">
+              <b>CONFIRMAR ASISTENCIA</b>
+            </a>
+          </div>
+        </div>
+
+        <div class="row pt-4 mt-5 mb-0 justify-content-center align-items-end">
+          <div class="col text-center">
+            <h3 class="cursiva mt-2">
+              Colores Reservados
+            </h3>
+          </div>
+        </div>
+        <div class="colores row p-4 mt-3 mb-4 justify-content-center align-items-end rounded-5 bg-body-secondary">
+          <div class="col text-start rounded-5">
+            <img class="icon m-0 p-0" src="./img/vestimenta.png" alt="" srcset="" width="100%">
+          </div>
+          <div class="col text-center">
+            <button class="btn p-4 rounded-circle shadow" style="background-color: #c20000;" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip-1" data-bs-title="ROJO"></button>
+          </div>
+          <div class="col text-center">
+            <button class="btn p-4 rounded-circle shadow" style="background-color: #ffffff;" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip-2" data-bs-title="BLANCOS"></button>
+          </div>
+          <div class="col text-center">
+            <button class="btn p-4 rounded-circle shadow" style="background-color: #fffdd0;" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip-3" data-bs-title="BEIGE"></button>
+          </div>
+          <div class="col text-center">
+            <button class="btn p-4 rounded-circle shadow" style="background-color: #5A0069;" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip-4" data-bs-title="PURPURA"></button>
+          </div>
         </div>
     </div>
     <!--<div id="fondo" class="m-0 p-5">
@@ -163,5 +230,9 @@
       </div>
     </div>-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
   </body>
 </html>
